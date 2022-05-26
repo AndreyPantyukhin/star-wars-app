@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "StarJedi";  
+    src: url("../fonts/Starjedi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+  
+a {
+  color: inherit;
+  text-decoration: none;
+}
+  
+img {
+  max-width: 100%;
+}
+  
+body {
+  max-width: 1500px;
+  font-family: "StarJedi", sans-serif;
+  color: #fff;
+  background-image: url("/img/4MES.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+  /* glob */
+  
+.title-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.text-reset {
+  margin: 0;
+  padding: 0; 
+}
+  
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.btn-reset {
+  padding: 0;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+  
+.flex {
+  display: flex;
+}
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 44px;
+}
+
+.main {
+  margin-bottom: 20px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'StarJedi', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.planet_card {
+  width: 350px;
+  margin-bottom: 25px;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+}
+
+.planet_title {
+  font-family: 'StarJedi', sans-serif;
+  letter-spacing: 0.2em;
+}
+  
+.popup {
+  display: flex;
+}
+
+.footer {
+  margin-bottom: 36px;
+  justify-content: center;
+  font-family: 'StarJedi', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.footer-text:not(:first-child) {
+  margin-left: 20px;
+}
+
+.globe-container {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 400px;
+  height: 400px;
+}
+
+.desert_small,
+.deserts_small {
+    width: 50px;
+    height: 50px;
+    background-image: url("/img/dlf.pt-alien-planet-png-5315171.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.caves_small,
+.ash_small,
+.volcanoes_small {
+    background-image: url("/img/dlf.pt-planet-png-4056459.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    
+}
+
+
+.mountains_small,
+.mesas_small,
+.arches_small,
+.pools_small,
+.plateaus_small,
+.rocky_small {
+    background-image: url("/img/PngItem_1641691.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.rainforests_small,
+.rivers_small,
+.plains_small,
+.vines_small,
+.swamps_small,
+.bogs_small {
+    background-image: url("/img/120512_terrestrial_planet_130621_by_avmorgan-d6a3moj.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.ranges_small,
+.tundra_small,
+.glaciers_small {
+    background-image: url("/img/snow_ice_planet_03_by_schinyman_ddstr8c.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.jungles_small,
+.verdant_small,
+.forests_small,
+.grass_small,
+.grasslands_small,
+.savannas_small,
+.cityscape_small,
+.sinkholes_small {
+    background-image: url("/img/terran_planet_01_by_schinyman_ddstrez.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.giant_small {
+    background-image: url("/img/jupiter-153563_1280.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.lakes_small,
+.fungus {
+    background-image: url("/img/terran_planet_04_by_schinyman_ddstrpe.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.oceans_small,
+.ocean_small,
+.seas_small,
+.islands_small {
+    background-image: url("/img/terran_planet_01_by_schinyman_ddstrez.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+
+.canyons_small,
+.besas_small {
+    background-image: url("/img/Mars_Valles_Marineris-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.asteroid_small,
+.barren_small {
+    background-image: url("/img/eris.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.unknown_small {
+    background-image: url("/img/kisspng-black-circle-computer-icons-datastax-clip-art-put-your-head-on-my-shoulders-5b1a9dce3cd7a3.4282521715284709902492.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+} 
